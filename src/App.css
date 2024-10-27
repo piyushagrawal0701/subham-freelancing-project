@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* --------- FONT ---------  */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* ----------- Main color ------------  */
+
+/* primary -  #2468d6 */
+
+/* ------------- HERO SECTION BG -----------  */
+
+/* .bg-hero-section-1{
+  background: url(../src//assets/Images/Hero-Section/Hero1.png) center center;
+} */
+
+.bg-hero-section-1 {
+  position: relative;
+  background: url(../src/assets/Images/Hero-Section/Hero1.png) center center /
+    cover;
+}
+.bg-hero-section-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.bg-hero-section-1 * {
+  position: relative;
+  z-index: 2;
+}
