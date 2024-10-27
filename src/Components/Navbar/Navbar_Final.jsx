@@ -195,7 +195,7 @@ const NavbarFinal = () => {
                     data-aos-duration="800"
                     data-aos-delay="150"
                   >
-                    <Link to="/">
+                    <Link to="/about">
                       <div className="flex gap-1 items-center effect-underline">
                         <p className="pt-1">
                           {" "}
@@ -211,7 +211,7 @@ const NavbarFinal = () => {
                     data-aos-duration="800"
                     data-aos-delay="150"
                   >
-                    <Link to="/">
+                    <Link to="/contact">
                       <div className="flex gap-1 items-center effect-underline">
                         <p className="pt-1">
                           {" "}
@@ -224,7 +224,7 @@ const NavbarFinal = () => {
 
                
                   <li className="menu-item">
-                    <Link to="/">
+                    <Link to="/contact">
                     <div className="flex text-lg justify-center gap-1 items-center">
                       <Button buttonText="Get in touch" className="py-2 text-sm"/>
                       {/* <Button3 text="Sign in" className="py-2 text-sm" /> */}

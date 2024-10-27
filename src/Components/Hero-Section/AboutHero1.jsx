@@ -1,5 +1,5 @@
 import React from "react";
-const Hero1 = () => {
+const AboutHero1 = () => {
   return (
     <>
       <section className="bg-hero-section-1 text-white">
@@ -36,4 +36,4 @@ const Hero1 = () => {
   );
 };
 
-export default Hero1;
+export default AboutHero1;

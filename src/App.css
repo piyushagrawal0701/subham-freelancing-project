@@ -53,3 +53,17 @@ body {
   position: relative;
   z-index: 2;
 }
+
+
+/* ----------- DROP SHADOW -------------  */
+
+.custom-blue-shadow:hover {
+  cursor: pointer;
+  scale: 1.1;
+  filter: drop-shadow(0 4px 6px rgba(59, 130, 246, 0.5)); /* Adjust as needed */
+  transition: all 0.2s ease-in;
+}
+.custom-blue-shadow {
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
