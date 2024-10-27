@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg2 from "../../assets/Images/Hero-Section/Hero2.png"
+import heroImg2 from "../../assets/Images/Hero-Section/Hero2.png";
 
 const Hero2 = () => {
   return (
@@ -18,10 +18,10 @@ const Hero2 = () => {
               it apart from the competition.
             </p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg">
+              <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg  font-medium">
                 Learn More
               </button>
-              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg">
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg font-medium">
                 Contact us
               </button>
             </div>

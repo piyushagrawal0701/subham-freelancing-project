@@ -1,7 +1,8 @@
 /* -------- FOOTER CSS ---------  */
 .footer-section {
-  background: url(../src/assets/Images/Components/Footer/footer-bg.png)
-    no-repeat center center;
+  background-color: #e2ebfa;
+  /* background: url(../src/assets/Images/Components/Footer/footer-bg.png)
+    no-repeat center center; */
   background-position: right;
   background-size: contain;
 }

@@ -22,13 +22,14 @@ const Hero3 = () => {
                 <span className="text-blue-500">market</span> analysis
               </h1>
               <p class="mb-8 leading-relaxedf font-normal">
-              Your money’s safety is our priority. We’ll invest your funds across various creditworthy assets per your investment policy to protect your purchasing power.
+                Your money’s safety is our priority. We’ll invest your funds
+                across various creditworthy assets per your investment policy to
+                protect your purchasing power.
               </p>
               <div class="flex justify-center">
-                <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg">
+                <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg font-medium">
                   Learn More
                 </button>
-              
               </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mx-auto">
