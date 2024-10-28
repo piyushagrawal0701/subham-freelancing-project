@@ -8,7 +8,7 @@ const Hero2 = () => {
         <div class="container mx-auto flex px-5 sm:py-24 py-12 md:flex-row flex-col items-center max-w-6xl">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <p class="px-2 font-medium">About us</p>
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
+            <h1 class="title-font sm:text-4xl text-2xl mb-4 font-bold text-gray-900">
               Crafting Tomorrow’s
               <br class="lg:inline-block" />
               <span className="text-blue-500">Trading</span> Standards

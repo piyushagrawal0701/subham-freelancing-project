@@ -5,6 +5,7 @@ import logo from "../../assets/Logo/image.png";
 
 import { Link, NavLink, useLocation } from "react-router-dom";
 import Button from "../Buttons/Jelly Btn/Button";
+import GlowBtn from "../Buttons/Glow Btn/GlowBtn";
 // import { useAuth } from "../../Context/AuthContext";
 // import Btn2 from "../Buttons/Btn2/Btn2";
 // import { Bounce, ToastContainer, toast } from "react-toastify";
@@ -226,7 +227,9 @@ const NavbarFinal = () => {
                   <li className="menu-item">
                     <Link to="/contact">
                     <div className="flex text-lg justify-center gap-1 items-center">
-                      <Button buttonText="Get in touch" className="py-2 text-sm"/>
+                      <GlowBtn text="Get in touch" />
+                      {/* <Button buttonText="Get in touch" className="py-2 text-sm"/> */}
+
                       {/* <Button3 text="Sign in" className="py-2 text-sm" /> */}
                     </div>
                     </Link>

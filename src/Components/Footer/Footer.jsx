@@ -146,7 +146,7 @@ const Footer = () => {
                   <p className="font-medium">
                     Bhopal (M.P), India
                     <br />
-                    +91 8839170393
+                    +91 123-456-789
                   </p>
                 </a>
               </span>
