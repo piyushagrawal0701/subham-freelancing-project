@@ -19,7 +19,7 @@ AOS.init({
 function App() {
   return (
     <>
-      <div className="my-app overflow-x-hidden">
+      <div className="my-app">
         <NavbarFinal />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -7,7 +7,7 @@ const Connect = () => {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center max-w-screen-xl">
           <div
             className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mx-auto  mb-10 md:mb-0"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-delay="50"
             data-aos-duration="1000"
           >

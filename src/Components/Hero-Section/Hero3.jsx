@@ -23,7 +23,7 @@ const Hero3 = () => {
             <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mt-10 md:mb-0 items-center text-center">
               <h1
                 className="title-font sm:text-4xl text-2xl mb-4 font-bold text-gray-900"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
@@ -33,7 +33,7 @@ const Hero3 = () => {
               </h1>
               <p
                 className="mb-8 leading-relaxedf font-normal"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-duration="1000"
               >
@@ -43,7 +43,7 @@ const Hero3 = () => {
               </p>
               <div
                 className="flex justify-center"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
@@ -54,7 +54,7 @@ const Hero3 = () => {
             </div>
             <div
               className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mx-auto"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-delay="50"
               data-aos-duration="1000"
             >
