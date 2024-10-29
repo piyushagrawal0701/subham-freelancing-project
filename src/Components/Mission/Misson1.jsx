@@ -3,7 +3,7 @@ import React from "react";
 const Misson1 = () => {
   return (
     <>
-      <section className="text-gray-600 body-font bg-[#f0f7fe] overflow-x-hidden">
+      <section className="text-gray-600 body-font bg-[#f0f7fe] overflow-hidden">
         <div className="container px-5 sm:py-24 py-12 mx-auto ">
           <div className="text-center mb-20">
             <h1
