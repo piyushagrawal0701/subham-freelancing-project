@@ -12,6 +12,10 @@ body {
   font-weight: 400;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* --------- FONT ---------  */
 
 /* // <uniquifier>: Use a unique and descriptive class name
@@ -53,7 +57,6 @@ body {
   position: relative;
   z-index: 2;
 }
-
 
 /* ----------- DROP SHADOW -------------  */
 

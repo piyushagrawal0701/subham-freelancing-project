@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Hero1 = () => {
   return (
     <>
@@ -37,12 +38,12 @@ const Hero1 = () => {
               data-aos-delay="250"
               data-aos-duration="1000"
             >
-              <a
+              <Link
                 className="block w-full max-md:max-w-[80%] rounded-full bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                href="#"
+                to="/contact"
               >
                 Get Free Proposal
-              </a>
+              </Link>
             </div>
           </div>
         </div>

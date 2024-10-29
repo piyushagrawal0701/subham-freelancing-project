@@ -29,10 +29,10 @@ const Contact = () => {
                   EMAIL
                 </h2>
                 <a
-                  href="mailto:agrawal777piyush@gmail.com"
+                  href="mailto:sample@gmail.com"
                   className="text-blue-500 leading-relaxed"
                 >
-                  agrawal777piyush@gmail.com
+                  sample@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
@@ -71,7 +71,7 @@ const Contact = () => {
                   Mobile no.
                 </label>
                 <input
-                  type="number"
+                  type="text"
                   id="number"
                   name="number"
                   className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"

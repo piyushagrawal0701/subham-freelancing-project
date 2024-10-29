@@ -8,19 +8,21 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
-    background: #1C1A1C;
+    /* background: #1C1A1C; */
+    background: linear-gradient(0deg,#7ca0f3,#3f5bea);
+
     cursor: pointer;
     transition: all 450ms ease-in-out;
   }
   
   .sparkle {
-    fill: #AAAAAA;
+    fill: #cacfd7;
     transition: all 800ms ease;
   }
   
   .text {
     font-weight: 600;
-    color: #AAAAAA;
+    color: #e5e8ec;
     font-size: medium;
   }
   
