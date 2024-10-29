@@ -6,10 +6,20 @@ const Faq = () => {
     <>
       <section className="faq-section">
         <div className="accordion ">
-          <h1 className="sm:pb-10 pb-6 max-md:pt-10 font-semibold">
+          <h1
+            className="sm:pb-10 pb-6 max-md:pt-10 font-semibold"
+            data-aos="zoom-in-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             Frequently Asked Questions
           </h1>
-          <div className="accordion-item ">
+          <div
+            className="accordion-item "
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
             <input type="checkbox" id="accordion1" />
             <label htmlFor="accordion1" className="accordion-item-title">
               <span className="icon"></span>What services does ZenGrit AlphaEdge
@@ -22,7 +32,12 @@ const Faq = () => {
             </div>
           </div>
 
-          <div className="accordion-item">
+          <div
+            className="accordion-item"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
             <input type="checkbox" id="accordion2" />
             <label htmlFor="accordion2" className="accordion-item-title">
               <span className="icon"></span>How can I start trading with expert
@@ -35,7 +50,12 @@ const Faq = () => {
             </div>
           </div>
 
-          <div className="accordion-item">
+          <div
+            className="accordion-item"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
             <input type="checkbox" id="accordion3" />
             <label htmlFor="accordion3" className="accordion-item-title">
               <span className="icon"></span>Is my investment safe with ZenGrit
@@ -48,7 +68,12 @@ const Faq = () => {
             </div>
           </div>
 
-          <div className="accordion-item">
+          <div
+            className="accordion-item"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
             <input type="checkbox" id="accordion4" />
             <label htmlFor="accordion4" className="accordion-item-title">
               <span className="icon"></span>What makes your trading tools
@@ -60,8 +85,6 @@ const Faq = () => {
               maximize your trading potential.
             </div>
           </div>
-
-      
         </div>
       </section>
     </>

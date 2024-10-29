@@ -4,7 +4,6 @@ import "./Navbar.css";
 import logo from "../../assets/Logo/image.png";
 
 import { Link, NavLink, useLocation } from "react-router-dom";
-import Button from "../Buttons/Jelly Btn/Button";
 import GlowBtn from "../Buttons/Glow Btn/GlowBtn";
 // import { useAuth } from "../../Context/AuthContext";
 // import Btn2 from "../Buttons/Btn2/Btn2";
@@ -12,6 +11,8 @@ import GlowBtn from "../Buttons/Glow Btn/GlowBtn";
 // import "react-toastify/dist/ReactToastify.css";
 
 const NavbarFinal = () => {
+  const location = useLocation();
+
   // ---------- TOAST FUNCTION ------------
   // const LogoutSuccessNotify = () => {
   //   toast.success("Logout Successfully", {
@@ -142,6 +143,7 @@ const NavbarFinal = () => {
 
   return (
     <>
+
       {/* <ToastContainer /> */}
       <section className={visible ? "visible" : "hidden"}>
         <header className="header">
@@ -189,7 +191,6 @@ const NavbarFinal = () => {
                     </Link>
                   </li>
 
-                
                   <li
                     className="menu-item"
                     data-aos="zoom-in"
@@ -218,24 +219,21 @@ const NavbarFinal = () => {
                           {" "}
                           <ion-icon name="call"></ion-icon>
                         </p>
-                       Contact us
+                        Contact us
                       </div>
                     </Link>
                   </li>
 
-               
                   <li className="menu-item">
                     <Link to="/contact">
-                    <div className="flex text-lg justify-center gap-1 items-center">
-                      <GlowBtn text="Get in touch" />
-                      {/* <Button buttonText="Get in touch" className="py-2 text-sm"/> */}
+                      <div className="flex text-lg justify-center gap-1 items-center">
+                        <GlowBtn text="Get in touch" />
+                        {/* <Button buttonText="Get in touch" className="py-2 text-sm"/> */}
 
-                      {/* <Button3 text="Sign in" className="py-2 text-sm" /> */}
-                    </div>
+                        {/* <Button3 text="Sign in" className="py-2 text-sm" /> */}
+                      </div>
                     </Link>
                   </li>
-                
-                 
                 </ul>
               </nav>
               {/* <!-- navigation menu end --> */}

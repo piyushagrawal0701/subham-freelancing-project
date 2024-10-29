@@ -22,6 +22,9 @@ const Footer = () => {
       <footer
         className="text-gray-700 body-font max-md:mt-10 footer-section"
         style={{ borderTop: "2px solid #2468d6" }}
+        data-aos="fade-in"
+        data-aos-delay="100"
+        data-aos-duration="1000"
       >
         <div className="container px-5 sm:py-24 pt-8 pb-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-44 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
