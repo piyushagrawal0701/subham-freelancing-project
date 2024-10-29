@@ -4,7 +4,7 @@ import heroImg3 from "../../assets/Images/Hero-Section/Hero3.png";
 const Hero3 = () => {
   return (
     <>
-      <section className="text-gray-600 body-font overflow-x-hidden">
+      <section className="text-gray-600 body-font">
         <div className="container px-5 sm:py-20 py-12 mx-auto">
           <div
             className="text-center mb-10"
