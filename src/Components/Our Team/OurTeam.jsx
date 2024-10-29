@@ -23,7 +23,7 @@ const OurTeam = () => {
               Working from all around the world to build the Web of tomorrow.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 mx-auto max-md:justify-center">
             <div
               className="p-4 lg:w-1/4 md:w-1/2"
               data-aos="fade-up"
@@ -33,7 +33,7 @@ const OurTeam = () => {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 max-w-96 max-md:mx-auto"
                   src="https://t3.ftcdn.net/jpg/06/32/91/32/360_F_632913287_pyej35IPG2tnAcqVxlD5QGlsJKUAYMhP.jpg"
                 />
                 <div className="w-full">
@@ -98,7 +98,7 @@ const OurTeam = () => {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 max-w-96 max-md:mx-auto"
                   src="https://t3.ftcdn.net/jpg/06/50/56/80/360_F_650568058_q6KruAvlT4w7RahAGwIwgIY8ZjIkGAYg.jpg"
                 />
                 <div className="w-full">
@@ -163,7 +163,7 @@ const OurTeam = () => {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 max-w-[340px] max-md:mx-auto"
                   src="https://media.istockphoto.com/id/1389477137/video/4k-video-footage-of-a-young-businessman-using-a-laptop-in-a-modern-office.jpg?s=640x640&k=20&c=kWwQaxuWPEStWyPLlL-erdJrw95WpdB_OaugjXwUEQU="
                 />
                 <div className="w-full">
@@ -228,7 +228,7 @@ const OurTeam = () => {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 max-w-[340px] mx-auto"
                   src="https://plus.unsplash.com/premium_photo-1661726660137-61b182d93809?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3Dhttps://dummyimage.com/203x203"
                 />
                 <div className="w-full">
