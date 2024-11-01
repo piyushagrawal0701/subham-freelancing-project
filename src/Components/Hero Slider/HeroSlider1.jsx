@@ -37,7 +37,7 @@ export default function HeroSlider1() {
           clickable: true,
         }}
         modules={[Autoplay, Pagination]}
-        className="mySwiper"
+        className="mySwiper "
       >
         {imgData.map((data, index) => (
           <>
