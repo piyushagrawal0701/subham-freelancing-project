@@ -7,12 +7,12 @@ const Hero1 = () => {
     <>
       <section className="relative text-white h-screen flex items-center justify-center  overflow-hidden">
         {/* Background slider */}
-        <div className="absolute inset-0 z-0 h-[90vh] sm:h-[100vh] bg-white ">
+        <div className="absolute inset-0 z-0 h-[80vh] sm:h-[100vh] bg-white ">
           <HeroSlider1 />
         </div>
 
         {/* Content overlay */}
-        <div className="relative z-10 mx-auto sm:px-4 px-2 py-32 lg:flex lg:items-center text-center ">
+        <div className="relative z-10 mx-auto sm:px-4 px-2 sm:py-32 pb-20 lg:flex lg:items-center text-center  ">
           <div className="mx-auto">
             <div className="flex justify-center items-center">
               <h1
@@ -57,7 +57,7 @@ const Hero1 = () => {
         </div>
 
         {/* Overlay for darker background effect */}
-        <div className="absolute inset-0 bg-black opacity-60 z-5  h-[90vh] sm:h-[100vh]"></div>
+        <div className="absolute inset-0 bg-black opacity-60 z-5  h-[80vh] sm:h-[100vh]"></div>
       </section>
     </>
   );
