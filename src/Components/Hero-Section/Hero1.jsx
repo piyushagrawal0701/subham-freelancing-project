@@ -1,14 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HeroSlider1 from "../Hero Slider/HeroSlider1";
+
 const Hero1 = () => {
   return (
     <>
-      <section className="bg-hero-section-1 text-white">
-        <div className="mx-auto sm:px-4 px-2 py-32 lg:flex lg:h-screen lg:items-center">
-          <div className="mx-auto text-center">
+      <section className="relative text-white h-screen flex items-center justify-center overflow-hidden">
+        {/* Background slider */}
+        <div className="absolute inset-0 z-0">
+          <HeroSlider1 />
+        </div>
+
+        {/* Content overlay */}
+        <div className="relative z-10 mx-auto sm:px-4 px-2 py-32 lg:flex lg:items-center text-center">
+          <div className="mx-auto">
             <div className="flex justify-center items-center">
               <h1
-                className=" text-2xl font-bold sm:text-5xl"
+                className="text-2xl font-bold sm:text-5xl"
                 data-aos="fade-up"
                 data-aos-delay="50"
                 data-aos-duration="1000"
@@ -23,7 +31,7 @@ const Hero1 = () => {
             </div>
 
             <p
-              className="mt-4 sm:text-xl/relaxed max-w-xl"
+              className="mt-4 sm:text-xl/relaxed max-w-xl mx-auto"
               data-aos="fade-up"
               data-aos-delay="150"
               data-aos-duration="1000"
@@ -47,6 +55,9 @@ const Hero1 = () => {
             </div>
           </div>
         </div>
+
+        {/* Overlay for darker background effect */}
+        <div className="absolute inset-0 bg-black opacity-60 z-5"></div>
       </section>
     </>
   );

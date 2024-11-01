@@ -146,7 +146,7 @@ const NavbarFinal = () => {
 
       {/* <ToastContainer /> */}
       <section className={visible ? "visible" : "hidden"}>
-        <header className="header">
+        <header className="header z-50">
           <div className="nav-container">
             <div className="header-main">
               <div className="logo sm:-ml-0 ml-0">
