@@ -58,7 +58,7 @@ const Hero1 = () => {
                 data-aos-duration="1000"
               >
                 {slideContent[activeSlide]?.heading}
-                <strong className="font-bold text-blue-500 sm:block pt-1">
+                <strong className="font-bold text-blue-500 block pt-1">
                   {slideContent[activeSlide]?.subheading}
                 </strong>
               </h1>
