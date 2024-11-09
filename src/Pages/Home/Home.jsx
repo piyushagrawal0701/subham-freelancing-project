@@ -5,6 +5,7 @@ import Misson1 from '../../Components/Mission/Misson1'
 import Hero3 from '../../Components/Hero-Section/Hero3'
 import Connect from '../../Components/Connect/Connect'
 import Faq from '../../Components/Faq/Faq'
+import Features from '../../Components/Features/Features'
 // import HeroSlider1 from '../../Components/Hero Slider/HeroSlider1'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     {/* <HeroSlider1/> */}
     <Misson1/>
     <Hero3/>
+    <Features/>
     <Connect/>
     <Faq/>
     </>

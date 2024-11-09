@@ -1,18 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import HeroSlider1 from "../Hero Slider/HeroSlider1";
 
 const Hero1 = () => {
+  const [activeSlide, setActiveSlide] = useState(0);
+
+  const slideContent = [
+    {
+      heading: "Master the Markets with",
+      subheading: "ZenGrit AlphaEdge",
+      description:
+        "Unlock the Secrets of Algorithmic Trading and enhance your strategies.",
+    },
+    {
+      heading: "WHO WE ARE",
+      subheading: "",
+      description:
+        "Founded by a small group of passionate traders and technologists in a modest office",
+    },
+    {
+      heading: "WHAT WE DO",
+      subheading: "Trading. Research. Technology.",
+      description:
+        "ZenTruGrit AE+ is a proprietary trading firm and global liquidity provider that combines advanced quantitative analysis",
+    },
+    {
+      heading: "OUR CULTURE",
+      subheading: "Trading. Research. Technology.",
+      description:
+        "ZenTruGrit AE+ is a proprietary trading firm and global liquidity provider that combines advanced quantitative analysis",
+    },
+    {
+      heading: "JOIN ZENTRUGRIT AE+",
+      subheading: "",
+      description:
+        "Are you ready to redefine the future of finance?",
+    },
+   
+  ];
+
   return (
     <>
-      <section className="relative text-white sm:h-screen h-[80vh] flex items-center justify-center  overflow-hidden">
+      <section className="relative text-white sm:h-screen h-[80vh] flex items-center justify-center overflow-hidden">
         {/* Background slider */}
-        <div className="absolute inset-0 z-0 h-[80vh] sm:h-[100vh] bg-white ">
-          <HeroSlider1 />
+        <div className="absolute inset-0 z-0 h-[80vh] sm:h-[100vh] bg-white">
+          <HeroSlider1 setActiveSlide={setActiveSlide} />
         </div>
 
         {/* Content overlay */}
-        <div className="relative z-10 mx-auto sm:px-4 px-2 sm:py-32 pb-4 lg:flex lg:items-center text-center  ">
+        <div className="relative z-10 mx-auto sm:px-4 px-2 sm:py-32 pb-4 lg:flex lg:items-center text-center">
           <div className="mx-auto">
             <div className="flex justify-center items-center">
               <h1
@@ -21,11 +57,9 @@ const Hero1 = () => {
                 data-aos-delay="50"
                 data-aos-duration="1000"
               >
-                Master the Markets with
+                {slideContent[activeSlide]?.heading}
                 <strong className="font-bold text-blue-500 sm:block pt-1">
-                  {"  "}
-                  ZenGrit AlphaEdge
-                  {"  "}
+                  {slideContent[activeSlide]?.subheading}
                 </strong>
               </h1>
             </div>
@@ -36,8 +70,7 @@ const Hero1 = () => {
               data-aos-delay="150"
               data-aos-duration="1000"
             >
-              Experience cutting-edge trading with expert guidance and
-              innovative tools
+              {slideContent[activeSlide]?.description}
             </p>
 
             <div
@@ -57,7 +90,7 @@ const Hero1 = () => {
         </div>
 
         {/* Overlay for darker background effect */}
-        <div className="absolute inset-0 bg-black opacity-60 z-5  h-[80vh] sm:h-[100vh]"></div>
+        <div className="absolute inset-0 bg-black opacity-60 z-5 h-[80vh] sm:h-[100vh]"></div>
       </section>
     </>
   );

@@ -28,8 +28,8 @@ const Misson1 = () => {
               data-aos-delay="150"
               data-aos-duration="1000"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              eligendi voluptas repudiandae!
+              Our mission is to empower individuals and businesses to make
+              data-informed decisions in finance and trading.
             </p>
           </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -52,7 +52,7 @@ const Misson1 = () => {
                   data-aos-delay="50"
                   data-aos-duration="1000"
                 >
-                  Research Suburbs
+                  Research Markets
                 </h2>
                 <p
                   className="leading-relaxed text-base"
@@ -60,8 +60,7 @@ const Misson1 = () => {
                   data-aos-delay="150"
                   data-aos-duration="1000"
                 >
-                  Wonder twenty hunted and put income set desire expect. Am
-                  cottage calling.
+           Gain deep insights into emerging markets and trends with our advanced research tools, helping you stay ahead of the curve and make informed financial decisions.
                 </p>
               </div>
             </div>
@@ -91,8 +90,7 @@ const Misson1 = () => {
                   data-aos-delay="150"
                   data-aos-duration="1000"
                 >
-                  Conveying or northward offending admitting perfectly my.
-                  Colonel gravit and moonlight.
+                  Quickly assess asset values with our AI-driven valuation tools, offering real-time, accurate insights for optimized financial strategies
                 </p>
               </div>
             </div>
@@ -114,7 +112,7 @@ const Misson1 = () => {
                   data-aos-delay="50"
                   data-aos-duration="1000"
                 >
-                  Track Property
+                  Track Assets
                 </h2>
                 <p
                   className="leading-relaxed text-base"
@@ -122,8 +120,7 @@ const Misson1 = () => {
                   data-aos-delay="150"
                   data-aos-duration="1000"
                 >
-                  Moderate children at of outweigh it. Unsatiable it considered
-                  invitation he travelling insensible.
+                 Stay informed on asset performance and market dynamics with our advanced tracking systems, enabling proactive management and strategic decision-making.
                 </p>
               </div>
             </div>
