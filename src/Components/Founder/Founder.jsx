@@ -1,13 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import founderImg from "../../assets/Images/About/founderImg.jpg"
+import founderImgMobile from "../../assets/Images/About/founderImgMobile.png"
+
 const Founder = () => {
   return (
     <>
     
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+
+          {/* ------------ FOR LAPTOP VERSION ---------------  */}
+
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 sm:hidden block">
+            <img
+              class="object-cover object-center rounded"
+              alt="hero"
+              src={founderImgMobile}
+            />
+          </div>
+
+          {/* ------------ FOR MOBILE VERSION ---------------  */}
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 sm:block hidden">
             <img
               class="object-cover object-center rounded"
               alt="hero"
