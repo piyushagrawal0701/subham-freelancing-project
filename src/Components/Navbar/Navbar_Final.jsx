@@ -213,6 +213,22 @@ const NavbarFinal = () => {
                     data-aos-duration="800"
                     data-aos-delay="150"
                   >
+                    <Link to="/services">
+                      <div className="flex gap-1 items-center effect-underline">
+                        <p className="pt-1">
+                          {" "}
+                          <ion-icon name="build"></ion-icon>
+                        </p>
+                        Services
+                      </div>
+                    </Link>
+                  </li>
+                  <li
+                    className="menu-item"
+                    data-aos="zoom-in"
+                    data-aos-duration="800"
+                    data-aos-delay="150"
+                  >
                     <Link to="/contact">
                       <div className="flex gap-1 items-center effect-underline">
                         <p className="pt-1">

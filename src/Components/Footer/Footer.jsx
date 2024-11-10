@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./footer.css";
 // import logo from "../../assets/Logo/image.png";
 // import { Link } from "react-router-dom";
@@ -159,8 +159,9 @@ const Footer = () => {
         <div className="bg-yellow-250">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              Copyright @ 2024. ZenGrit - Made by Piyush. All rights
-              reserved.
+              Copyright @ 2024. ZenGrit - Made by{" "}
+              <a href="https://piyushportfolio7.netlify.app">Piyush</a>. All
+              rights reserved.
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a className="text-gray-500">

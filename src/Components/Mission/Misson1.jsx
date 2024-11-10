@@ -60,7 +60,9 @@ const Misson1 = () => {
                   data-aos-delay="150"
                   data-aos-duration="1000"
                 >
-           Gain deep insights into emerging markets and trends with our advanced research tools, helping you stay ahead of the curve and make informed financial decisions.
+                  Gain deep insights into emerging markets and trends with our
+                  advanced research tools, helping you stay ahead of the curve
+                  and make informed financial decisions.
                 </p>
               </div>
             </div>
@@ -90,7 +92,9 @@ const Misson1 = () => {
                   data-aos-delay="150"
                   data-aos-duration="1000"
                 >
-                  Quickly assess asset values with our AI-driven valuation tools, offering real-time, accurate insights for optimized financial strategies
+                  Quickly assess asset values with our AI-driven valuation
+                  tools, offering real-time, accurate insights for optimized
+                  financial strategies
                 </p>
               </div>
             </div>
@@ -120,7 +124,9 @@ const Misson1 = () => {
                   data-aos-delay="150"
                   data-aos-duration="1000"
                 >
-                 Stay informed on asset performance and market dynamics with our advanced tracking systems, enabling proactive management and strategic decision-making.
+                  Stay informed on asset performance and market dynamics with
+                  our advanced tracking systems, enabling proactive management
+                  and strategic decision-making.
                 </p>
               </div>
             </div>

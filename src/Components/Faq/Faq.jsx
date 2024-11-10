@@ -12,7 +12,7 @@ const Faq = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
           >
-            Frequently Asked Questions
+            Frequently Asked <span className="text-blue-500"> Questions</span>
           </h1>
           <div
             className="accordion-item "
