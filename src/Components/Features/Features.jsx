@@ -38,8 +38,7 @@ const Features = () => {
                   data-aos-delay="100"
                   data-aos-duration="1000"
                 >
-                  Discover, create and grow financial management software for
-                  the future of crypto investments.
+              Empower your investment strategies with tools designed to maximize returns. 
                 </p>
               </div>
             </div>
@@ -58,8 +57,7 @@ const Features = () => {
                 <p class="leading-relaxed text-base font-normal" data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000">
-                  Discover, create and grow financial management software for
-                  the future of crypto investments.
+                  Stay ahead with real-time insights and analytics that track market trends and portfolio performance instantly.
                 </p>
               </div>
             </div>
@@ -78,8 +76,7 @@ const Features = () => {
                 <p class="leading-relaxed text-base font-normal" data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000">
-                  Discover, create and grow financial management software for
-                  the future of crypto investments.
+                 Seamlessly connect and synchronize your data across platforms with our cloud-based integrations.
                 </p>
               </div>
             </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Faq from "../../Components/Faq/Faq";
 
 const Contact = () => {
   return (
@@ -29,17 +28,16 @@ const Contact = () => {
                   EMAIL
                 </h2>
                 <a
-                  href="mailto:sample@gmail.com"
+                  href="mailto:info@zentrugrit.ai"
                   className="text-blue-500 leading-relaxed"
                 >
-                  sample@gmail.com
+                  info@zentrugrit.ai
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
                 <p className="leading-relaxed">
-                  <a href="tel:123-456-789">123-456-789</a>,{" "}
-                  <a href="tel:987-654-321">987-654-321</a>
+                  <a href="tel:+919311224234">+91 9311224234</a>,{" "}
                 </p>
               </div>
             </div>
@@ -98,7 +96,6 @@ const Contact = () => {
         </div>
       </section>
 
-      <Faq />
     </>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./Navbar.css";
 
-import logo from "../../assets/Logo/image.png";
+import logo from "../../assets/Logo/ZenTruGrit Logo-Only.png";
 
 import { Link, NavLink, useLocation } from "react-router-dom";
 import GlowBtn from "../Buttons/Glow Btn/GlowBtn";
@@ -143,19 +143,21 @@ const NavbarFinal = () => {
 
   return (
     <>
-
       {/* <ToastContainer /> */}
       <section className={visible ? "visible" : "hidden"}>
         <header className="header z-50">
           <div className="nav-container">
             <div className="header-main">
               <div className="logo sm:-ml-0 ml-0">
-                <Link to="/" className="flex flex-row items-center w-[200px]">
+                <Link to="/" className="flex flex-row items-center w-[300px]">
                   <img
                     src={logo}
                     alt=""
-                    className="sm:w-[20vw] w-[35vw] sm:pr-2 max-md:px-2 max-md:pl-3  "
+                    className="sm:w-[5vw] w-[20vw] sm:pr-2 max-md:px-2 max-md:pl-3  "
                   />
+                  <h1 className="sm:text-xl text-md text-white font-medium">
+                    ZenTruGrit AlphaEdge
+                  </h1>
                 </Link>
               </div>
               <div
@@ -170,7 +172,7 @@ const NavbarFinal = () => {
               ></div>
               {/* <!-- navigation menu start --> */}
               <nav className={`nav-menu ${isNavOpen ? "open" : ""}`}>
-                <div className="close-nav-menu " onClick={closeNav}>
+                <div className="close-nav-menu font-bold" onClick={closeNav}>
                   X
                 </div>
                 <ul className="menu">
@@ -240,15 +242,17 @@ const NavbarFinal = () => {
                     </Link>
                   </li>
 
-                  <li className="menu-item">
-                    <Link to="/contact">
+                  <li className="menu-item ">
+                    <div className="social-icons text-2xl text-white flex gap-4 hover:cursor-pointer pt-1 max-md:pl-4">
+                      <span className="hover:scale-105"><ion-icon name="logo-instagram"></ion-icon></span>
+                      <span className="hover:scale-105"><ion-icon name="logo-linkedin"></ion-icon></span>
+                      <span className="hover:scale-105"><ion-icon name="logo-twitter"></ion-icon></span>
+                    </div>
+                    {/* <Link to="/contact">
                       <div className="flex text-lg justify-center gap-1 items-center">
                         <GlowBtn text="Get in touch" />
-                        {/* <Button buttonText="Get in touch" className="py-2 text-sm"/> */}
-
-                        {/* <Button3 text="Sign in" className="py-2 text-sm" /> */}
                       </div>
-                    </Link>
+                    </Link> */}
                   </li>
                 </ul>
               </nav>

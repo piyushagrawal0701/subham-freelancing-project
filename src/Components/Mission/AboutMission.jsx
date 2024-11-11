@@ -20,7 +20,7 @@ const AboutMission = () => {
               <br className="hidden lg:inline-block" />
             </h1>
             <p className="mb-8 leading-relaxed font-medium">
-            Our mission is to empower individuals and institutions to achieve excellence in trading and asset management by delivering AI-driven insights, strategic frameworks, and tools that drive consistent growth. Through our dedication to grit, continuous improvement, and advanced solutions, we strive to redefine finance and create lasting value.
+            Our mission is to transform trading standards through innovation, expertise, and a relentless commitment to sustainable growth for our clients.
               <br /> <br />
               Our vision is to reshape the financial landscape by merging human intelligence with advanced AI, setting a new standard for intelligent, ethical, and strategic financial services. We aim to empower traders and investors to navigate the markets with clarity, precision, and resilience, fostering a future where finance is accessible, equitable, and innovative.
             </p>

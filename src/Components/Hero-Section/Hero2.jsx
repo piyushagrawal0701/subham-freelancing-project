@@ -21,9 +21,9 @@ const Hero2 = () => {
               data-aos-delay="100"
               data-aos-duration="1000"
             >
-              Crafting Tomorrow’s
+             Mastering Markets with
               <br className="lg:inline-block" />
-              <span className="text-blue-500">Trading</span> Standards
+              <span className="text-blue-500">AI-driven</span> Smart Technology
             </h1>
             <p
               className="mb-8 leading-relaxed font-normal"
@@ -62,7 +62,7 @@ const Hero2 = () => {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src={heroImg2}
+              src="https://www.damcogroup.com/wp-content/uploads/2023/10/stock-market-prediction-using-ai.jpg"
             />
           </div>
         </div>

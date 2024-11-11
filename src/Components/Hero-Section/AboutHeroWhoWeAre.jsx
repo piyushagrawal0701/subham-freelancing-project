@@ -31,9 +31,7 @@ const AboutHeroWhoWeAre = () => {
               data-aos-delay="300"
               data-aos-duration="1000"
             >
-              ZenTruGrit AE+ is an advanced investment and proprietary trading
-              firm, merging artificial intelligence, psychology, and resilience
-              to redefine the finance industry.
+          ZenTruGrit AE+ is redefining the landscape of trading with a fusion of advanced AI, psychological insight, and legendary market wisdom. Our mission is to empower traders, asset managers, and investors
             </p>
             <div className="flex justify-center">
               <button

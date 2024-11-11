@@ -84,7 +84,7 @@ const Misson1 = () => {
                   data-aos-delay="50"
                   data-aos-duration="1000"
                 >
-                  Instant Valuation
+                  Using Modern Tools
                 </h2>
                 <p
                   className="leading-relaxed text-base"

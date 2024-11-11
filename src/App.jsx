@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import ScrollToTop from "./Components/Scroll to top/ScrollToTop";
 import Services from "./Pages/Services/Services";
+import Footer2 from "./Components/Footer/Footer2";
 // ..
 AOS.init();
 function App() {
@@ -22,7 +23,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
+        <Footer2/>
       </div>
 
       <ScrollToTop />

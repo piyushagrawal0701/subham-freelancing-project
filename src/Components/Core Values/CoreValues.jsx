@@ -40,8 +40,8 @@ const CoreValues = () => {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                We believe AI is reshaping the future of finance. By leveraging
-                advanced AI models, machine learning, and predictive analytics.
+               Stay ahead of the curve with real-time, data-driven insights. By leveraging
+                advanced AI models.
               </p>
               <a
                 class="text-blue-500 inline-flex items-center"
@@ -78,8 +78,7 @@ const CoreValues = () => {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                Financial markets are intense and often volatile. We prioritize
-                mental resilience and grit, teaching traders to stay
+                Develop the mental toughness required to excel in volatile markets, teaching traders to stay
                 disciplined.
               </p>
               <a
@@ -114,9 +113,7 @@ const CoreValues = () => {
               <p class="leading-relaxed text-base mb-4" data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000">
-                With AI-driven insights and deep market expertise, we craft
-                adaptive strategies that excel in both stable and turbulent
-                conditions.
+               Harness the power of teamwork and strategic insight to elevate trading performance. 
               </p>
               <a class="text-blue-500 inline-flex items-center" data-aos="fade-up"
                 data-aos-delay="120"
@@ -145,8 +142,7 @@ const CoreValues = () => {
                 data-aos-delay="100"
                 data-aos-duration="1000">
                 ZenTruGrit AE+ is dedicated to fostering growth for clients,
-                team members, and aspiring traders. We empower traders and
-                investors with the tools.
+                team members, and aspiring traders.
               </p>
               <a class="text-blue-500 inline-flex items-center" data-aos="fade-up"
                 data-aos-delay="120"

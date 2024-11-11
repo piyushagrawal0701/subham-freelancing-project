@@ -2,8 +2,11 @@ import React from "react";
 const AboutHero1 = () => {
   return (
     <>
-      <section className="bg-hero-section-1 text-white">
-        <div className="mx-auto sm:px-4 px-2 py-32 lg:flex lg:h-screen lg:items-center">
+      <section className="relative bg-[url('https://cdn.analyticsvidhya.com/wp-content/uploads/2024/04/AI-Stock-Market-Software-for-Trading.webp')] bg-cover bg-center text-white">
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+
+        <div className=" relative mx-auto sm:px-4 px-2 py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto text-center">
             <div className="flex justify-center items-center">
               <h1
