@@ -53,8 +53,8 @@ const Founder = () => {
               data-aos-duration="1000"
             >
               ZenTruGrit AE+ was founded by <b>Vinod Yadav Mettu</b>, a seasoned
-              trader with deep expertise in both{" "}
-              <b>Indian and U.S. financial</b> markets. With a BBA in Finance
+              trader with expertise in both{" "}
+              <b>Indian and U.S. Financial</b> markets. With a BBA in Finance
               from ICFAI Business School, Vinod has excelled in equity and
               derivatives analysis, trading U.S. commodities, and mastering
               geopolitical insights. His dedication to innovation and integrity

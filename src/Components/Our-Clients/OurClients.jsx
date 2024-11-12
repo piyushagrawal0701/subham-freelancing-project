@@ -22,7 +22,7 @@ const OurClients = () => {
               data-aos-delay="150"
               data-aos-duration="1000"
             >
-              Zentrugrit partners with GTCFX and Aetram for access to MT4, MT5,
+              ZenTruGrit AE+ partners with GTCFX and Aetram for access to MT4, MT5,
               and cTrader with 1,000+ assets.
             </p>
           </div>
