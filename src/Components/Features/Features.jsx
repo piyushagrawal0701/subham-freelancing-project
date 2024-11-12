@@ -52,12 +52,12 @@ const Features = () => {
                 data-aos-delay="50"
                 data-aos-duration="1000">
                 <h2 class="text-gray-900 text-lg title-font font-semibold mb-2">
-                  Real time analytics
+                Risk Management
                 </h2>
                 <p class="leading-relaxed text-base font-normal" data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000">
-                  Stay ahead with real-time insights and analytics that track market trends and portfolio performance instantly.
+                  Minimize potential losses with robust risk management tools that help you safeguard your investments and make balanced decisions.
                 </p>
               </div>
             </div>
@@ -71,12 +71,12 @@ const Features = () => {
                 data-aos-delay="50"
                 data-aos-duration="1000">
                 <h2 class="text-gray-900 text-lg title-font font-semibold mb-2">
-                  Cloud integrations
+                Customized Strategies
                 </h2>
                 <p class="leading-relaxed text-base font-normal" data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000">
-                 Seamlessly connect and synchronize your data across platforms with our cloud-based integrations.
+                Tailor your trading approach with strategies that adapt to your unique goals, ensuring alignment with your financial objectives.
                 </p>
               </div>
             </div>

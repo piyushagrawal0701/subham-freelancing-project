@@ -2,7 +2,7 @@ import React from "react";
 const AboutHero1 = () => {
   return (
     <>
-      <section className="relative bg-[url('https://cdn.analyticsvidhya.com/wp-content/uploads/2024/04/AI-Stock-Market-Software-for-Trading.webp')] bg-cover bg-center text-white">
+      <section className="relative bg-[url('https://libertex.org/sites/default/files/styles/news_detail_hero/public/news/immm.jpeg?itok=0K8k3Tsh')] bg-cover bg-center text-white">
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
 

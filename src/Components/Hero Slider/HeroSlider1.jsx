@@ -8,15 +8,18 @@ import "swiper/css/pagination";
 
 import "./heroslider.css";
 
+import bgImg1 from "../../assets/Images/Hero-Section/bg.jpeg"
+import bgImg2 from "../../assets/Images/Hero-Section/bg1.jpeg"
+
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 
 const imgData = [
   {
-    img: "https://stratzy.in/blog/content/images/2024/07/Algo-Trading-Meaning-Basics-and-Example.webp",
+    img: bgImg1,
   },
   {
-    img: "https://img.freepik.com/free-photo/stock-trading-workplace-background_1409-5545.jpg",
+    img: bgImg2
   },
   {
     img: "https://www.shareindia.com/wp-content/uploads/2022/10/Trading-Psychology-%E2%80%93-Mastering-Emotions-Biases-and-Common-Traps.webp",

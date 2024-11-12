@@ -66,11 +66,28 @@ const Founder = () => {
               data-aos-delay="150"
               data-aos-duration="1000"
             >
-              <Link to="/contact">
+              <div className="social-icons text-2xl sm:text-black text-white flex gap-4 hover:cursor-pointer pt-1 max-md:pl-4">
+                <a href="https://www.instagram.com/vinodyadavmettu">
+                  <span className="hover:scale-105">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </span>
+                </a>
+                <a href="https://www.linkedin.com/in/vinodyadavmettu/">
+                  <span className="hover:scale-105">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </span>
+                </a>
+                <a href="https://x.com/vinodyadavmettu">
+                  <span className="hover:scale-105">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </span>
+                </a>
+              </div>
+              {/* <Link to="/contact">
                 <button class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg max-md:w-full">
                   Contact us
                 </button>
-              </Link>
+              </Link> */}
               {/* <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                 Button
               </button> */}

@@ -244,17 +244,17 @@ const NavbarFinal = () => {
 
                   <li className="menu-item ">
                     <div className="social-icons text-2xl sm:text-black text-white flex gap-4 hover:cursor-pointer pt-1 max-md:pl-4">
-                      <a href="https://www.instagram.com/vinodyadavmettu">
+                      <a href="https://www.instagram.com/zentrugrit/">
                         <span className="hover:scale-105">
                           <ion-icon name="logo-instagram"></ion-icon>
                         </span>
                       </a>
-                      <a href="https://www.linkedin.com/in/vinodyadavmettu/">
+                      <a href="https://www.linkedin.com/company/zentrugrit">
                         <span className="hover:scale-105">
                           <ion-icon name="logo-linkedin"></ion-icon>
                         </span>
                       </a>
-                      <a href="https://x.com/vinodyadavmettu">
+                      <a href="https://x.com/zentrugrit">
                         <span className="hover:scale-105">
                           <ion-icon name="logo-twitter"></ion-icon>
                         </span>

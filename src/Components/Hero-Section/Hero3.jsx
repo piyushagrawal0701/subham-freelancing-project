@@ -61,7 +61,7 @@ const Hero3 = () => {
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
-                src={heroImg3}
+                src="https://www.unite.ai/wp-content/uploads/2022/08/stock-trading-bot.png"
               />
             </div>
           </div>

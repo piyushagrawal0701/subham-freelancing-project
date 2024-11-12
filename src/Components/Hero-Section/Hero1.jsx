@@ -14,9 +14,9 @@ const Hero1 = () => {
     },
     {
       heading: "WHO WE ARE",
-      subheading: "",
+      subheading: "At ZenTruGrit AE+",
       description:
-        "Founded by a small group of passionate traders and technologists in a modest office",
+        "ZenTruGrit AE+ is dedicated to transforming financial markets through innovation, grit, and strategic insights.",
     },
     {
       heading: "WHAT WE DO",

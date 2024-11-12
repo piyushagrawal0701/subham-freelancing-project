@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg2 from "../../assets/Images/Hero-Section/Hero2Img.gif";
+import { Link } from "react-router-dom";
 
 const Hero2 = () => {
   return (
@@ -21,7 +22,7 @@ const Hero2 = () => {
               data-aos-delay="100"
               data-aos-duration="1000"
             >
-             Mastering Markets with
+              Mastering Markets with
               <br className="lg:inline-block" />
               <span className="text-blue-500">AI-driven</span> Smart Technology
             </h1>
@@ -35,22 +36,26 @@ const Hero2 = () => {
               it apart from the competition.
             </p>
             <div className="flex justify-center">
-              <button
-                className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg  font-medium"
-                data-aos="zoom-in-up"
-                data-aos-delay="400"
-                data-aos-duration="1000"
-              >
-                Learn More
-              </button>
-              <button
-                className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg font-medium"
-                data-aos="zoom-in-up"
-                data-aos-delay="450"
-                data-aos-duration="1000"
-              >
-                Contact us
-              </button>
+              <Link to="/contact">
+                <button
+                  className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg  font-medium"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                >
+                  Learn More
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button
+                  className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg font-medium"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="450"
+                  data-aos-duration="1000"
+                >
+                  Contact us
+                </button>
+              </Link>
             </div>
           </div>
           <div

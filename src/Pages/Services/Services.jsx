@@ -34,11 +34,13 @@ const Services = () => {
                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
                   Proprietary Trading Solutions
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Crypto, Forex, Equities: Advanced AI-driven strategies for
-                  capturing high-potential opportunities across global markets.
-                  Algorithmic Trading: Automated systems designed for precision
-                  and swift market response.
+                <p class="leading-relaxed text-base text-gray-500">
+                  <b>Crypto, Forex, Equities:</b> Advanced AI-driven strategies
+                  for capturing high-potential opportunities across global
+                  markets.
+                  <br /> <br />
+                  <b>Algorithmic Trading:</b> Automated systems designed for
+                  precision and swift market response.
                 </p>
               </div>
             </div>
@@ -62,10 +64,12 @@ const Services = () => {
                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
                   AI-Powered Investment Advisory
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Smart Asset Rankings: AI-based asset rankings for data-driven
-                  decisions. Optimized Indices: Custom indices aligned with
-                  client goals and top-performing assets.
+                <p class="leading-relaxed text-base text-gray-500">
+                  <b>Smart Asset Rankings:</b> AI-based asset rankings for
+                  data-driven decisions.
+                  <br /> <br />
+                  <b> Optimized Indices:</b> Custom indices aligned with client
+                  goals and top-performing assets.
                 </p>
               </div>
             </div>
@@ -88,9 +92,11 @@ const Services = () => {
                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
                   Intelligent Portfolio Management
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Dynamic Rebalancing: Real-time adjustments for optimal returns
-                  and risk balance. Risk Assessment: Predictive analytics to
+                <p class="leading-relaxed text-base text-gray-500">
+                  <b>Dynamic Rebalancing:</b> Real-time adjustments for optimal returns
+                  and risk balance. 
+                  <br /> <br />
+                  <b>Risk Assessment:</b> Predictive analytics to
                   align portfolios with risk tolerance.
                 </p>
               </div>
@@ -113,9 +119,11 @@ const Services = () => {
                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
                   AI-Powered Buy/Sell Signals
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Market Movers Identification: Key Buy/Sell signals for optimal
-                  market entry and exit. Real-Time Signals: Actionable signals
+                <p class="leading-relaxed text-base text-gray-500">
+                  <b>Market Movers Identification:</b> Key Buy/Sell signals for optimal
+                  market entry and exit.
+                  <br /> <br />
+                  <b> Real-Time Signals:</b> Actionable signals
                   to maximize profit potential.
                 </p>
               </div>
@@ -138,9 +146,11 @@ const Services = () => {
                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
                   Training and Mentorship
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Aspiring Trader Programs: Market basics, AI strategies, and
-                  resilience. Advanced Mentorship: Guidance on advanced
+                <p class="leading-relaxed text-base text-gray-500">
+                  <b>Aspiring Trader Programs:</b> Market basics, AI strategies, and
+                  resilience.
+                  <br /> <br />
+                   <b>Advanced Mentorship:</b> Guidance on advanced
                   techniques and risk management.
                 </p>
               </div>
@@ -163,7 +173,7 @@ const Services = () => {
                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
                   Transparency and Client Collaboration
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed text-base text-gray-500">
                   Transparency and open communication are integral to our
                   approach. We provide clients with detailed insights into our
                   processes.

@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../assets/Images/About/clientlogo1.png";
-import img2 from "../../assets/Images/About/partner1.jpeg";
-import img3 from "../../assets/Images/About/partner2.jpeg";
+import img1 from "../../assets/Images/About/WIthPartner1.png";
+import img2 from "../../assets/Images/About/WithPartner2.png";
+import img3 from "../../assets/Images/About/WithPartner3.png";
 const OurClients = () => {
   return (
     <>
@@ -22,10 +22,27 @@ const OurClients = () => {
               data-aos-delay="150"
               data-aos-duration="1000"
             >
-             Zentrugrit partners with GTCFX and Aetram for access to MT4, MT5, and cTrader with 1,000+ assets.
+              Zentrugrit partners with GTCFX and Aetram for access to MT4, MT5,
+              and cTrader with 1,000+ assets.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4 text-center">
+          <section class="text-gray-600 body-font py-8">
+            <div class="container  mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/3">
+                  <img src={img1} alt="" />
+                </div>
+                <div class="p-4 lg:w-1/3">
+                  <img src={img2} alt="" />
+                </div>
+                <div class="p-4 lg:w-1/3">
+                 <img src={img3} alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* <div className="flex flex-wrap -m-4 text-center">
+
             <div
               className="sm:p-4 p-1 md:w-1/4 sm:w-1/2 w-1/2"
               data-aos="fade-up"
@@ -75,7 +92,7 @@ const OurClients = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
