@@ -18,14 +18,14 @@ const AboutHero1 = () => {
                 Master the Markets with
                 <strong className="font-bold text-blue-500 sm:block pt-1">
                   {"  "}
-                  ZenGrit AlphaEdge
+                  AI-driven Smart Technology
                   {"  "}
                 </strong>
               </h1>
             </div>
 
             <p
-              className="mt-4 sm:text-xl/relaxed max-w-xl"
+              className="mt-4 sm:text-xl/relaxed max-w-xl text-center"
               data-aos="fade-up"
               data-aos-delay="150"
               data-aos-duration="1000"
@@ -35,14 +35,15 @@ const AboutHero1 = () => {
             </p>
 
             <div
-              className="mt-8 flex flex-wrap justify-center gap-4"
+              className="mt-8 flex flex-wrap justify-center gap-4 mx-auto items-center"
               data-aos="fade-up"
               data-aos-delay="250"
               data-aos-duration="1000"
             >
               <a
-                className="block w-full max-md:max-w-[80%] rounded-full bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                href="#"
+                className="block w-full max-md:max-w-[80%] rounded-full bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto "
+                href="https://wa.me/9311224234?text=Hello%20there!%20I%20would%20like%20to%20get%20in%20touch."
+                target="_blank"
               >
                 Get Free Proposal
               </a>

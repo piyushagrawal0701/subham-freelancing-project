@@ -33,10 +33,8 @@ const Hero1 = () => {
     {
       heading: "JOIN ZENTRUGRIT AE+",
       subheading: "",
-      description:
-        "Are you ready to redefine the future of finance?",
+      description: "Are you ready to redefine the future of finance?",
     },
-   
   ];
 
   return (
@@ -79,12 +77,13 @@ const Hero1 = () => {
               data-aos-delay="250"
               data-aos-duration="1000"
             >
-              <Link
+              <a
+                href="https://wa.me/9311224234?text=Hello%20there!%20I%20would%20like%20to%20get%20in%20touch."
+                target="_blank"
                 className="block w-full max-md:max-w-[80%] rounded-full bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                to="/contact"
               >
                 Get Free Proposal
-              </Link>
+              </a>
             </div>
           </div>
         </div>

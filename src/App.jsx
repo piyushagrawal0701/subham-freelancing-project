@@ -9,6 +9,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import ScrollToTop from "./Components/Scroll to top/ScrollToTop";
 import Services from "./Pages/Services/Services";
 import Footer2 from "./Components/Footer/Footer2";
+import Whatsapp from "./Components/Whatsapp-icon/Whatsapp";
 // ..
 AOS.init();
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <>
       <div className="my-app">
         <NavbarFinal />
+        <Whatsapp/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

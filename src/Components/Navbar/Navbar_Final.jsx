@@ -155,8 +155,8 @@ const NavbarFinal = () => {
                     alt=""
                     className="sm:w-[5vw] w-[20vw] sm:pr-2 max-md:px-2 max-md:pl-3  "
                   />
-                  <h1 className="sm:text-xl text-md text-white font-medium">
-                    ZenTruGrit AlphaEdge
+                  <h1 className="sm:text-xl text-md text-black font-semibold">
+                    ZenTruGrit AE+
                   </h1>
                 </Link>
               </div>
@@ -243,10 +243,22 @@ const NavbarFinal = () => {
                   </li>
 
                   <li className="menu-item ">
-                    <div className="social-icons text-2xl text-white flex gap-4 hover:cursor-pointer pt-1 max-md:pl-4">
-                      <span className="hover:scale-105"><ion-icon name="logo-instagram"></ion-icon></span>
-                      <span className="hover:scale-105"><ion-icon name="logo-linkedin"></ion-icon></span>
-                      <span className="hover:scale-105"><ion-icon name="logo-twitter"></ion-icon></span>
+                    <div className="social-icons text-2xl sm:text-black text-white flex gap-4 hover:cursor-pointer pt-1 max-md:pl-4">
+                      <a href="https://www.instagram.com/vinodyadavmettu">
+                        <span className="hover:scale-105">
+                          <ion-icon name="logo-instagram"></ion-icon>
+                        </span>
+                      </a>
+                      <a href="https://www.linkedin.com/in/vinodyadavmettu/">
+                        <span className="hover:scale-105">
+                          <ion-icon name="logo-linkedin"></ion-icon>
+                        </span>
+                      </a>
+                      <a href="https://x.com/vinodyadavmettu">
+                        <span className="hover:scale-105">
+                          <ion-icon name="logo-twitter"></ion-icon>
+                        </span>
+                      </a>
                     </div>
                     {/* <Link to="/contact">
                       <div className="flex text-lg justify-center gap-1 items-center">

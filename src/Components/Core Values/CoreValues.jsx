@@ -43,25 +43,7 @@ const CoreValues = () => {
                Stay ahead of the curve with real-time, data-driven insights. By leveraging
                 advanced AI models.
               </p>
-              <a
-                class="text-blue-500 inline-flex items-center"
-                data-aos="fade-up"
-                data-aos-delay="120"
-                data-aos-duration="1000"
-              >
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+           
             </div>
             <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
               <h2
@@ -81,25 +63,7 @@ const CoreValues = () => {
                 Develop the mental toughness required to excel in volatile markets, teaching traders to stay
                 disciplined.
               </p>
-              <a
-                class="text-blue-500 inline-flex items-center"
-                data-aos="fade-up"
-                data-aos-delay="120"
-                data-aos-duration="1000"
-              >
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+           
             </div>
             <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
               <h2
@@ -115,22 +79,7 @@ const CoreValues = () => {
                 data-aos-duration="1000">
                Harness the power of teamwork and strategic insight to elevate trading performance. 
               </p>
-              <a class="text-blue-500 inline-flex items-center" data-aos="fade-up"
-                data-aos-delay="120"
-                data-aos-duration="1000">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+          
             </div>
             <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
               <h2 class="text-lg sm:text-xl text-gray-900 font-semibold title-font mb-2" data-aos="fade-up"
@@ -144,22 +93,7 @@ const CoreValues = () => {
                 ZenTruGrit AE+ is dedicated to fostering growth for clients,
                 team members, and aspiring traders.
               </p>
-              <a class="text-blue-500 inline-flex items-center" data-aos="fade-up"
-                data-aos-delay="120"
-                data-aos-duration="1000">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+          
             </div>
           </div>
           {/* <button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">

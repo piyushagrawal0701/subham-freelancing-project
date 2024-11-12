@@ -12,32 +12,31 @@ const Contact = () => {
               className="absolute inset-0 grayscale-1 opacity-40 contrast-[1.2]"
               frameborder="0"
               title="map"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14597.04749071276!2d77.9429042!3d23.844833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397957ee368596bd%3A0xbe8ae077cb18a43f!2sHITKARNI%20DHARM%20SHALA!5e0!3m2!1sen!2sin!4v1725131657472!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101259.60852854289!2d78.20259494676492!3d17.594290618136288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbf35106aba7d1%3A0xab09ad9fd542b4b0!2sHyderabad%2C%20Telangana%20502319!5e1!3m2!1sen!2sin!4v1731387001448!5m2!1sen!2sin"
             ></iframe>
+
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <p className="mt-1 font-medium">
-                  Near Hitkarni Dharamshala, Mill road, Ganj Basoda (M.P)
-                </p>
+                <p className="mt-1 font-medium">Hyderabad, Telangana, 502319</p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
                 <a
-                  href="mailto:info@zentrugrit.ai"
+                  href="mailto:vinod@zentrugrit.ai"
                   className="text-blue-500 leading-relaxed"
                 >
-                  info@zentrugrit.ai
+                  vinod@zentrugrit.ai
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
                 <p className="leading-relaxed">
-                  <a href="tel:+919311224234">+91 9311224234</a>,{" "}
+                  <a href="tel:+919311224234">+91 9311224234</a>{" "}
                 </p>
               </div>
             </div>
@@ -95,7 +94,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
     </>
   );
 };

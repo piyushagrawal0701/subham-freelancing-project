@@ -60,7 +60,7 @@ const Hero2 = () => {
             data-aos-duration="1000"
           >
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded h-full"
               alt="hero"
               src="https://www.damcogroup.com/wp-content/uploads/2023/10/stock-market-prediction-using-ai.jpg"
             />
