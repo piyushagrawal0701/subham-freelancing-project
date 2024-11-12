@@ -64,7 +64,7 @@ const WhatWeDo = () => {
                 <img
                   alt="content"
                   class="object-cover object-center h-full w-full"
-                  src="https://ideausher.com/wp-content/uploads/2024/03/AI-in-Portfolio-Management-Benefits-Use-Cases-and-More.webp"
+                  src="https://i0.wp.com/eastgate-software.com/wp-content/uploads/2024/06/5-best-ai-trading-platforms.webp?fit=1920%2C1080&ssl=1"
                 />
               </div>
               <h2 class="text-xl font-medium title-font text-gray-900 mt-5">
@@ -88,7 +88,7 @@ const WhatWeDo = () => {
                 <img
                   alt="content"
                   class="object-cover object-center h-full w-full"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThq8ifKARwsvaZxFUZscjnms-MD5iQZVkuXA&s"
+                  src="https://www.brokerxplorer.com/upload/content/2023-03/how-to-learn-trading-facetoface-effectively-4220-1.jpg"
                 />
               </div>
               <h2 class="text-xl font-medium title-font text-gray-900 mt-5">

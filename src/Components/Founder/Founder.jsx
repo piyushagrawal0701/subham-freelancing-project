@@ -66,7 +66,7 @@ const Founder = () => {
               data-aos-delay="150"
               data-aos-duration="1000"
             >
-              <div className="social-icons text-2xl sm:text-black text-white flex gap-4 hover:cursor-pointer pt-1 max-md:pl-4">
+              <div className="social-icons text-2xl text-black flex gap-4 hover:cursor-pointer pt-1 max-md:pl-4">
                 <a href="https://www.instagram.com/vinodyadavmettu">
                   <span className="hover:scale-105">
                     <ion-icon name="logo-instagram"></ion-icon>

@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg3 from "../../assets/Images/Hero-Section/Hero3.png";
+import { Link } from "react-router-dom";
 
 const Hero3 = () => {
   return (
@@ -47,9 +48,11 @@ const Hero3 = () => {
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg font-medium">
-                  Learn More
-                </button>
+                <Link to="/contact">
+                  <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg font-medium">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
             <div
@@ -61,7 +64,7 @@ const Hero3 = () => {
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
-                src="https://www.unite.ai/wp-content/uploads/2022/08/stock-trading-bot.png"
+                src="https://a5537b8c.rocketcdn.me/wp-content/uploads/2024/02/akr2da91ryhr1y6b-1024x585.jpg"
               />
             </div>
           </div>

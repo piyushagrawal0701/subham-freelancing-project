@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Connect = () => {
   return (
@@ -100,9 +101,11 @@ const Connect = () => {
               data-aos-delay="700"
               data-aos-duration="1000"
             >
-              <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg font-medium">
-                Learn More
-              </button>
+              <Link to="/contact">
+                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg font-medium">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
