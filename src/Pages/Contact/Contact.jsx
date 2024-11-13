@@ -49,7 +49,7 @@ const Contact = () => {
               Feel free to contact us !
             </p>
             <form
-              action="https://formsubmit.co/agrawal777piyush@gmail.com"
+              action="https://formsubmit.co/info@zentrugrit.ai"
               method="post"
             >
               <div className="relative mb-4">

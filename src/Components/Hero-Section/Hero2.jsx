@@ -7,7 +7,7 @@ const Hero2 = () => {
     <>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 sm:py-24 pt-12 pb-12 md:flex-row flex-col items-center max-w-6xl">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center">
             {/* <p
               className="px-2 font-medium"
               data-aos="zoom-in-up"
@@ -17,7 +17,7 @@ const Hero2 = () => {
               About us
             </p> */}
             <h1
-              className="title-font sm:text-4xl text-2xl mb-4 font-bold text-gray-900"
+              className="title-font sm:text-4xl text-2xl sm:mb-4 mb-0 font-bold text-gray-900"
               data-aos="zoom-in-up"
               data-aos-delay="100"
               data-aos-duration="1000"
@@ -67,7 +67,7 @@ const Hero2 = () => {
             <img
               className="object-cover object-center rounded h-full"
               alt="hero"
-              src="https://www.damcogroup.com/wp-content/uploads/2023/10/stock-market-prediction-using-ai.jpg"
+              src="https://tradeciety.com/hubfs/Backtesting-Trading.jpg"
             />
           </div>
         </div>
