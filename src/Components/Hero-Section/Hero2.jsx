@@ -8,14 +8,14 @@ const Hero2 = () => {
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 sm:py-24 pt-12 pb-12 md:flex-row flex-col items-center max-w-6xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <p
+            {/* <p
               className="px-2 font-medium"
               data-aos="zoom-in-up"
               data-aos-delay="0"
               data-aos-duration="1000"
             >
               About us
-            </p>
+            </p> */}
             <h1
               className="title-font sm:text-4xl text-2xl mb-4 font-bold text-gray-900"
               data-aos="zoom-in-up"
@@ -26,7 +26,7 @@ const Hero2 = () => {
               <br className="lg:inline-block" />
               <span className="text-blue-500">AI-driven</span> Smart Technology
             </h1>
-            <p
+            {/* <p
               className="mb-8 leading-relaxed font-normal"
               data-aos="zoom-in-up"
               data-aos-delay="300"
@@ -34,7 +34,7 @@ const Hero2 = () => {
             >
               Brief narrative about the company’s history, values, and what sets
               it apart from the competition.
-            </p>
+            </p> */}
             <div className="flex justify-center">
               <Link to="/contact">
                 <button
