@@ -35,7 +35,7 @@ const Hero2 = () => {
               Brief narrative about the company’s history, values, and what sets
               it apart from the competition.
             </p> */}
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <Link to="/contact">
                 <button
                   className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg  font-medium"
@@ -56,7 +56,7 @@ const Hero2 = () => {
                   Contact us
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div
             className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"

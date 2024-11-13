@@ -27,10 +27,10 @@ const Contact = () => {
                   EMAIL
                 </h2>
                 <a
-                  href="mailto:vinod@zentrugrit.ai"
+                  href="mailto:info@zentrugrit.ai"
                   className="text-blue-500 leading-relaxed"
                 >
-                  vinod@zentrugrit.ai
+                  info@zentrugrit.ai
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
