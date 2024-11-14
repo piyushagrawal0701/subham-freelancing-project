@@ -8,7 +8,7 @@ const Hero1 = () => {
   const slideContent = [
     {
       heading: "Master the Markets with",
-      subheading: "ZenTruGrit AlphaEdge",
+      subheading: "ZenTruGrit AE+",
       description:
         "Unlock the Secrets of Algorithmic Trading and enhance your strategies.",
     },
